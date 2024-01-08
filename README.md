@@ -1,7 +1,6 @@
 # Utility Scripts for SVDD Challenge 2024
 
-This repository contains code related to the SVDD Challenge 2024 CtrSVDD dataset. The training and development sets are available for download at [zenodo]
-(https://zenodo.org/doi/10.5281/zenodo.10467604).
+This repository contains code related to the SVDD Challenge 2024 CtrSVDD dataset. The training and development sets are available for download at [zenodo](https://zenodo.org/doi/10.5281/zenodo.10467604).
 
 ## Understanding Dataset
 
