@@ -14,7 +14,7 @@ From left to right, the fields denote original dataset containing singer identit
 This metadata list is designed to be of similar format as ASVspoof2019LA. With small modifications, you should be able to get existing ASVspoof2019LA dataloaders up and running quickly.
 
 ## Generating the full dataset
-SVDD Challenge 2024 Training and Development Dataset is provided under CC NC-BY 4.0 license ([Read legal code](https://creativecommons.org/licenses/by-nc/4.0/legalcode)) while some of our bonafide utterances are issued under more restrictive licenses. In accordance to this issue, although our provided metadata (`train.txt` and `dev.txt`) contains all entries, our provided audio files (`train_set.zip` and `dev_set.zip`) do not. 
+SVDD Challenge 2024 Training and Development Dataset is provided under BY-NC-ND 4.0 license ([Read legal code](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en)) while some of our bonafide utterances are issued under more restrictive licenses. In accordance to this issue, although our provided metadata (`train.txt` and `dev.txt`) contains all entries, our provided audio files (`train_set.zip` and `dev_set.zip`) do not. 
 
 Therefore, participants need to download [Oniku](http://onikuru.info/db-download/), [Ofuton](https://sites.google.com/view/oftn-utagoedb/%E3%83%9B%E3%83%BC%E3%83%A0), [Kiritan](https://zunko.jp/kiridev/login.php) and [JVS-MuSiC](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_music) themselves. 
 
