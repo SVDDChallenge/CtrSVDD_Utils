@@ -9,12 +9,12 @@ Each line within `train.txt` and `dev.txt` denotes one song clip's metadata. The
 m4singer CtrSVDD_0110 CtrSVDD_0110_D_0015416 - - bonafide
 jvsmusic CtrSVDD_0097 CtrSVDD_0097_D_0010993 - A06 deepfake
 ```
-From left to right, the fields denote original dataset containing singer identity, CtrSVDD singer ID, file name (corresponding `*.flac` file is in `train.zip` and `dev.zip` correspondingly), attack (labeled as Axx), and bonafide or deepfake.
+From left to right, the fields denote original dataset containing singer identity, CtrSVDD singer ID, file name (corresponding `*.flac` file is in `train_set.zip` and `dev_set.zip` correspondingly), attack (labeled as Axx), and bonafide or deepfake.
 
 This metadata list is designed to be of similar format as ASVspoof2019LA. With small modifications, you should be able to get existing ASVspoof2019LA dataloaders up and running quickly.
 
 ## Generating the full dataset
-SVDD Challenge 2024 Training and Development Dataset is provided under CC NC-BY 4.0 license ([Read legal code](https://creativecommons.org/licenses/by-nc/4.0/legalcode)) while some of our bonafide utterances are issued under more restrictive licenses. In accordance to this issue, although our provided metadata (`train.txt` and `dev.txt`) contains all entries, our provided audio files (`train.zip` and `dev.zip`) do not. 
+SVDD Challenge 2024 Training and Development Dataset is provided under CC NC-BY 4.0 license ([Read legal code](https://creativecommons.org/licenses/by-nc/4.0/legalcode)) while some of our bonafide utterances are issued under more restrictive licenses. In accordance to this issue, although our provided metadata (`train.txt` and `dev.txt`) contains all entries, our provided audio files (`train_set.zip` and `dev_set.zip`) do not. 
 
 Therefore, participants need to download [Oniku](http://onikuru.info/db-download/), [Ofuton](https://sites.google.com/view/oftn-utagoedb/%E3%83%9B%E3%83%BC%E3%83%A0), [Kiritan](https://zunko.jp/kiridev/login.php) and [JVS-MuSiC](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_music) themselves. 
 
@@ -22,7 +22,7 @@ After downloading, this repository provides several timestamp files (`timestamps
 
 Run each timestamp file against the corresponding dataset path with our provided segmentation script:
 
-`python segment.py {timestamp_file} {dataset_directory} {output_directory}`
+`python segment.py {dataset_directory} {timestamp_file} {output_directory}`
 
 `dataset_directory` should be the base directory of each dataset (`jvs_music_ver1`, `kiritan_singing`, `OFUTON_P_UTAGOE_DB`, `ONIKU_KURUMI_UTAGOE_DB`);
 
