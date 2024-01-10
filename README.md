@@ -24,7 +24,7 @@ Run each timestamp file against the corresponding dataset path with our provided
 
 `python segment.py {dataset_directory} {timestamp_file} {output_directory}`
 
-`dataset_directory` should be the base directory of each dataset (`jvs_music_ver1`, `kiritan_singing`, `OFUTON_P_UTAGOE_DB`, `ONIKU_KURUMI_UTAGOE_DB`);
+`dataset_directory` should be the base directory of each dataset (`jvs_music_ver1`, `kiritan_singing/wav`, `OFUTON_P_UTAGOE_DB`, `ONIKU_KURUMI_UTAGOE_DB`);
 
 `output_directory` should be the extracted `train/` or `dev/` directory containing the provided SVDD Challenge training or development set audio.
 
